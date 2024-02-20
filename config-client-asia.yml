@@ -1,1 +1,4 @@
 lucky-word: Rice
+spring:
+  profiles:
+    active: asia
