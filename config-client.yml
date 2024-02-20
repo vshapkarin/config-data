@@ -1,1 +1,4 @@
 lucky-word: Irish
+spring:
+  profiles:
+    active: asia
