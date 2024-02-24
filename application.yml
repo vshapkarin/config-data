@@ -11,27 +11,3 @@ management:
     web:
       exposure:
         include: "*"
----
-spring:
-  profiles: eureka-client-1
-words: I,You,He,She,It
-
----
-spring:
-  profiles: eureka-client-2
-words: ran,knew,had,saw,bought
-
----
-spring:
-  profiles: eureka-client-3
-words: a,the
-
----
-spring:
-  profiles: eureka-client-4
-words: reasonable,leaky,suspicious,ordinary,unlikely
-
----
-spring:
-  profiles: eureka-client-5
-words: boat,book,vote,seat,backpack,partition,groundhog  
