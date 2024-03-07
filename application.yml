@@ -15,25 +15,30 @@ management:
 
 ---
 spring:
-  profiles: subject
+  profiles:
+    activate-on: subject
 words: I,You,He,She,It
   
 ---
 spring:
-  profiles: verb
+  profiles:
+    activate-on: verb
 words: ran,knew,had,saw,bought
 
 ---
 spring:
-  profiles: article
+  profiles:
+    activate-on: article
 words: a,the
 
 ---
 spring:
-  profiles: adjective
+  profiles:
+    activate-on: adjective
 words: reasonable,leaky,suspicious,ordinary,unlikely
 
 ---
 spring:
-  profiles: noun
+  profiles:
+    activate-on: noun
 words: boat,book,vote,seat,backpack,partition,groundhog
