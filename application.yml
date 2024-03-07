@@ -1,4 +1,3 @@
----
 eureka:
   client:
     healthcheck:
@@ -13,32 +12,3 @@ management:
       exposure:
         include: "*"
 
----
-spring:
-  profiles:
-    activate-on: subject
-words: I,You,He,She,It
-  
----
-spring:
-  profiles:
-    activate-on: verb
-words: ran,knew,had,saw,bought
-
----
-spring:
-  profiles:
-    activate-on: article
-words: a,the
-
----
-spring:
-  profiles:
-    activate-on: adjective
-words: reasonable,leaky,suspicious,ordinary,unlikely
-
----
-spring:
-  profiles:
-    activate-on: noun
-words: boat,book,vote,seat,backpack,partition,groundhog
