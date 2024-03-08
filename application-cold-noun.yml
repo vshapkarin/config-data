@@ -1,0 +1,4 @@
+words: icicle,refrigerator,blizzard,snowball
+spring:
+  application:
+    name: noun
