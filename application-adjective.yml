@@ -1,1 +1,4 @@
 words: reasonable,leaky,suspicious,ordinary,unlikely
+spring:
+  application:
+    name: adjective
