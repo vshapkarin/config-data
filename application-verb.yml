@@ -1,1 +1,4 @@
 words: ran,knew,had,saw,bought
+spring:
+  application:
+    name: verb
